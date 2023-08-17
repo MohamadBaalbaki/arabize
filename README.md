@@ -15,7 +15,9 @@ npm install arabize
 
 ### Import
 
-Once the package is installed, you can import the library using the `import` keyword since it is an ES Module:
+Since arabize is an ES Module, make sure to add `"type": "module"` in your `package.json` file.
+
+Once the package is installed, you can import the library using the `import` keyword:
 
 ```js
 import { arabize } from 'arabize';
