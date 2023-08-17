@@ -1,0 +1,32 @@
+{
+  "name": "arabize",
+  "version": "1.0.0",
+  "description": "Node.js API wrapper for Yamli's Latin to Arabic transliteration engine",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MohamadBaalbaki/arabize.git"
+  },
+  "keywords": [
+    "Yamli",
+    "Transliteration",
+    "Latin",
+    "Arabic",
+    "Node.js",
+    "Node",
+    "JavaScript"
+  ],
+  "author": "Mohamad Baalbaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MohamadBaalbaki/arabize/issues"
+  },
+  "homepage": "https://github.com/MohamadBaalbaki/arabize#readme",
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
