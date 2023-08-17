@@ -17,8 +17,10 @@ const arabize = async text => {
 
   return results.map(result => {
     const data = result.data;
-    const transliteratedToken = data.r?.split('|')?.[0]?.split('/')?.[0];
-    return transliteratedToken !== '' ? transliteratedToken : (constants.DEFAULT_CHARS[data.w] || data.w);
+    const transliteratedToken = data.r?.split('|')?.[0]?.split('/')?.[0] || '';
+    return transliteratedToken === ''
+      ? (constants.DEFAULT_CHARS[data.w] || data.w)
+      : transliteratedToken;
   }).join(' ');
 }
 
